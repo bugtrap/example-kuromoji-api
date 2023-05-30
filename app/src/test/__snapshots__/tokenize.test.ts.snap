@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`解析 簡単な動作テスト 1`] = `
+[
+  {
+    "basic_form": "テスト",
+    "conjugated_form": "*",
+    "conjugated_type": "*",
+    "pos": "名詞",
+    "pos_detail_1": "サ変接続",
+    "pos_detail_2": "*",
+    "pos_detail_3": "*",
+    "pronunciation": "テスト",
+    "reading": "テスト",
+    "surface_form": "テスト",
+    "word_id": 698600,
+    "word_position": 1,
+    "word_type": "KNOWN",
+  },
+  {
+    "basic_form": "です",
+    "conjugated_form": "基本形",
+    "conjugated_type": "特殊・デス",
+    "pos": "助動詞",
+    "pos_detail_1": "*",
+    "pos_detail_2": "*",
+    "pos_detail_3": "*",
+    "pronunciation": "デス",
+    "reading": "デス",
+    "surface_form": "です",
+    "word_id": 23760,
+    "word_position": 4,
+    "word_type": "KNOWN",
+  },
+  {
+    "basic_form": "。",
+    "conjugated_form": "*",
+    "conjugated_type": "*",
+    "pos": "記号",
+    "pos_detail_1": "句点",
+    "pos_detail_2": "*",
+    "pos_detail_3": "*",
+    "pronunciation": "。",
+    "reading": "。",
+    "surface_form": "。",
+    "word_id": 90940,
+    "word_position": 6,
+    "word_type": "KNOWN",
+  },
+]
+`;

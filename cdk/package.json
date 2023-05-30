@@ -1,0 +1,44 @@
+{
+  "name": "example-kuromoji-api-cdk",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "bugtrap",
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf cdk.out coverage dist reports ./cdk.context.json",
+    "lint": "run-s lint:*",
+    "lint:spell": "cspell --gitignore --no-progress --no-summary \"{bin,lib}/**/*.{ts,js,md}\" \"./*.{ts,js,md}\"",
+    "lint:style": "prettier --loglevel warn --check bin lib \"./*.{ts,js,json}\"",
+    "lint:code": "eslint \"{bin,lib}/**/*.{ts,js}\"",
+    "diff": "cdk diff",
+    "synth": "cdk synth --quiet",
+    "deploy:changeset": "cdk deploy --method prepare-change-set",
+    "deploy:stack": "cdk deploy",
+    "bootstrap": "run-s clean lint"
+  },
+  "dependencies": {
+    "aws-cdk": "2.81.0",
+    "aws-cdk-lib": "2.81.0",
+    "constructs": "10.2.37",
+    "source-map-support": "~0.5.21"
+  },
+  "devDependencies": {
+    "@types/node": "~18.15.13",
+    "cspell": "~6.31.1",
+    "esbuild": "~0.17.19",
+    "eslint": "~8.38.0",
+    "eslint-config-prettier": "~8.8.0",
+    "eslint-plugin-import": "~2.27.5",
+    "eslint-plugin-typescript-enum": "~2.1.0",
+    "eslint-plugin-unused-imports": "~2.0.0",
+    "npm-run-all": "~4.1.5",
+    "prettier": "~2.8.8",
+    "rimraf": "~5.0.1",
+    "ts-node": "~10.9.1",
+    "tsconfig-paths": "~4.2.0",
+    "typescript": "~5.0.4"
+  }
+}

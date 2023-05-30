@@ -1,0 +1,15 @@
+{
+  "version": "0.2",
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "allowCompoundWords": false,
+  "dictionaries": ["workspace-dictionary"],
+  "dictionaryDefinitions": [
+    {
+      "name": "workspace-dictionary",
+      "path": ".cspell/workspace-dictionary.txt",
+      "scope": "workspace",
+      "description": "Workspace Dictionary",
+      "addWords": true
+    }
+  ]
+}

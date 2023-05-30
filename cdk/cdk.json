@@ -1,0 +1,18 @@
+{
+  "app": "pnpm ts-node --prefer-ts-exts bin/cdk.ts",
+  "watch": {
+    "include": ["bin/**/*.ts", "lib/**/*.ts"],
+    "exclude": []
+  },
+  "versionReporting": false,
+  "requireApproval": "never",
+  "context": {
+    "stage": "develop",
+    "develop": {
+      "domain": ""
+    },
+    "production": {
+      "domain": ""
+    }
+  }
+}
